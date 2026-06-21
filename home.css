@@ -1,0 +1,117 @@
+body {
+    background: white;
+    font-family: Roboto, Arial;
+    margin: 0;
+}
+
+.trangdau {
+    padding: 6px;
+    text-align: center;
+    background: rgb(255, 255, 255);
+    box-shadow: 0 0 6px rgba(0, 0, 0, 0.6);
+    border-radius: 6px;
+    h2 {
+        color: rgb(178, 163, 1);
+        font-size: 20px;
+    }
+    display: flex;
+}
+
+.logo {
+    width: 65px;
+    height: 50px;
+    margin-right: 10px;
+}
+
+.thanhtren {
+    margin-left: auto;
+    display: flex;
+    gap: 30px;
+    padding: 20px;
+    a {
+        text-decoration: none;
+        color: rgb(0, 0, 0);
+        font-size: 16px;
+        &:hover {
+            color: rgb(4, 23, 133);
+        }
+        font-weight: bold;
+    }
+}
+
+/*timkiem*/
+.timkiem {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    input {
+        padding: 15px;
+        border: 1px solid #ccc;
+        border-radius: 6px;
+        width: 500px;
+        box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    }
+    button {
+        padding: 15px 15px;
+        background-color: rgb(7, 18, 82);
+        color: white;
+        border: none;
+        border-radius: 6px;
+        cursor: pointer;
+        box-shadow: 0 0 5px #0F172A;
+        &:hover {
+            background-color: rgb(0, 0, 255);
+        }
+    }
+}
+
+.sach {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.tieude {
+        font-size: 20px;
+        color: rgb(255, 255, 255);
+        background: #0F172A;
+        padding: 10px;
+        width: 100%;
+        box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+    }
+
+.thongtinweb {
+    background: #0F172A;
+    padding: 40px;
+    margin-top: 20px;
+}
+.thongtinweb h3 {
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: -30px;
+}
+.thongtinweb p {
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    margin-top: 20px;
+}
+.thongtinweb a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-weight: bold;
+    &:hover {
+        color: rgb(0, 0, 255);
+    }
+}
+.trai{
+    font-weight: bold;
+}
+.phai {
+    font-weight: bold;
+    text-align: right;
+    margin-top: -190px;
+}

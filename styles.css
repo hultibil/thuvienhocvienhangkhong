@@ -1,0 +1,28 @@
+body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: white;
+    font-family: Roboto, Arial;
+}
+
+.login {
+    background: rgb(255, 255, 255);
+    width: 150px;
+    padding: 90px;
+    height: 160px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.6);
+    position: relative;
+    h2 {
+        color: rgb(190, 174, 2);
+        text-align: top;
+        margin-bottom: 20px;
+        position: absolute;
+        top: 10px;
+        left: 20px;
+        font-size: 20px;
+    }
+}
